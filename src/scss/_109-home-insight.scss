@@ -1,0 +1,482 @@
+.insightHome{
+  padding:2em 2em 2em 5em;
+  background: rgb(51,186,249);
+  background: linear-gradient(90deg, rgba(51,186,249,1) 10%, rgba(0,87,182,1) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  background-position: top;
+    @media (max-width: 2221px) {
+      background-size: 100% 68%;
+    }
+    @media (max-width: 2000px) {
+      background-size: 100% 67%;
+    }
+    @media (max-width: 1750px) {
+      background-size: 100% 66%;
+    }
+    @media (max-width: 1440px) {
+      background-size: 100% 62%;
+    }
+    @media (max-width: 1219px) {
+      background-size: 100% 62%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      padding:2em 2em 2em 1.5em;
+      background-size: 100% 57%;
+    }
+    @media (max-width: 767px) {
+      padding:2em 2em 2em 1.5em;
+    }
+  
+
+    .tileSectionHd{
+      width:100%;
+      padding-left: 14em;
+      @media (max-width: 2181px) {
+        padding-left: 13em;
+      }
+      @media (max-width: 1848px) {
+        padding-left: 13em;
+      }
+      @media (max-width: 1651px) {
+        padding-left: 13em;
+      }
+      @media (max-width: 1440px) {
+        padding-left: 12em;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        margin-top:2em;
+      }
+      @media (max-width: 767px) {
+        margin-top:1em;
+        padding-left:0;
+      }
+      h2{
+        color: $white;
+        font-weight: 400;
+        line-height: 1.22;
+        letter-spacing: 0.96px;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          font-size: 1.211rem;
+          margin-bottom: 0.5em;
+        }
+        @media (max-width: 767px) {
+          font-size: 1.211rem;
+          margin-bottom: 0.5em;
+        }
+      }
+      p{
+        color: $white;
+        font-size:14px;
+        margin-top:1em;
+        margin-left:0.5em;
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          font-size: 0.889em;
+        }
+        @media (max-width: 767px) {
+          font-size: 0.889em;
+        }
+      }
+    }  
+    
+    .newsSlideShow{  
+      .newsButton{ 
+        float: left;
+        width: 1%;
+        margin-left: 4em;
+        @media (max-width: 2181px) {
+          margin-left: 3em;
+        }
+        @media (max-width: 1848px) {
+         margin-left: 3em;
+        }
+        @media (max-width: 1651px) {
+          margin-left: 2em;
+        }
+        @media (max-width: 1117px) {
+          margin-left: 1em;
+        }
+        @media (max-width: 767px) {
+          width:100%;
+          width: 1%;
+        }
+
+
+        .carousel-control-prev{
+          display:block;
+          border: none;
+          background-color: transparent;
+          margin: 0 auto;
+          margin-bottom: 2em;
+          width: 32px;
+          position: relative;
+          .carousel-control-prev-icon{
+            background-image: url("../img/arrow-left.svg");
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 100% 100%;
+          }
+        }
+        .carousel-control-next{
+          display:block;
+          border: none;
+          background-color: transparent;
+          margin: 0 auto;
+          position: relative;
+          right: auto;
+          width: 32px;
+          position: relative;
+          .carousel-control-next-icon{
+            background-image: url("../img/arrow-right.svg");
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 100% 100%;
+          
+          }
+        }
+
+      }
+
+  @media (max-width: 767px) {
+    .carousel-inner {
+      .carousel-item {
+        >div {
+          display: none;
+          &:first-child {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-inner {
+      .carousel-item-end.active {
+        transform: translateX(25%);
+      }
+      .carousel-item-next {
+        transform: translateX(25%);
+      }
+      .carousel-item-start.active {
+        transform: translateX(-25%);
+      }
+      .carousel-item-prev {
+        transform: translateX(-25%);
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .carousel-inner {
+      .carousel-item-end.active {
+        transform: translateX(45%);
+      }
+      .carousel-item-next {
+        transform: translateX(45%);
+      }
+      .carousel-item-start.active {
+        transform: translateX(-45%);
+      }
+      .carousel-item-prev {
+        transform: translateX(-45%);
+      }
+    }
+  }
+
+  .carousel-inner {
+    width: 96%;
+    float: right;
+    left: 130px;
+    @media (max-width: 767px) {
+      width: 94%;
+      left: 56px;
+    }
+
+    .carousel-item{
+      
+    .carContent{
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        width:45%;
+      }
+      &::after{
+        content:"";
+        background: -webkit-linear-gradient(left, #00aeef 0%, #00aeef 12%, #00aeef 47%, white 100%);
+        display: block;
+        height:5px;
+        width: 500px;
+        position: absolute;
+        bottom: 0;
+      }
+      .imgCard{
+        img{
+          width: 90%;
+        }
+      }
+      .textCard{
+        padding:1em 2em 2em 1.5em;
+       
+        p{
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.38;
+          letter-spacing: normal;
+        }
+        a{
+          font-size: 13px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.38;
+          letter-spacing: normal;
+          color: $navient-blue;
+        }
+      }
+    }
+  }
+
+    .carousel-item.active {
+      display: flex;
+    }
+    .carousel-item-next {
+      display: flex;
+    }
+    .carousel-item-prev {
+      display: flex;
+    }
+    .carousel-item-end {
+      transform: translateX(0);
+    }
+    .carousel-item-start {
+      transform: translateX(0);
+    }
+  }
+
+  
+}
+
+}
+
+
+
+
+
+
+// .insightHome{
+//   padding:2em 2em 2em 5em;
+//   background: rgb(51,186,249);
+//   background: linear-gradient(90deg, rgba(51,186,249,1) 10%, rgba(0,87,182,1) 100%);
+//   background-repeat: no-repeat;
+//   background-size: 100% 70%;
+//   background-position: top;
+//     @media (max-width: 2221px) {
+//       background-size: 100% 68%;
+//     }
+//     @media (max-width: 2000px) {
+//       background-size: 100% 67%;
+//     }
+//     @media (max-width: 1750px) {
+//       background-size: 100% 66%;
+//     }
+//     @media (max-width: 1440px) {
+//       background-size: 100% 62%;
+//     }
+//     @media (max-width: 1219px) {
+//       background-size: 100% 62%;
+//     }
+//     @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//       padding:2em 2em 2em 1.5em;
+//       background-size: 100% 57%;
+//     }
+//     @media (max-width: 767px) {
+//       padding:2em 2em 2em 1.5em;
+//     }
+  
+//     .tileSectionHd{
+//       width:100%;
+//       padding-left: 14em;
+//       @media (max-width: 2181px) {
+//         padding-left: 13em;
+//       }
+//       @media (max-width: 1848px) {
+//         padding-left: 13em;
+//       }
+//       @media (max-width: 1651px) {
+//         padding-left: 13em;
+//       }
+//       @media (max-width: 1440px) {
+//         padding-left: 12em;
+//       }
+//       @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//         margin-top:2em;
+//       }
+//       @media (max-width: 767px) {
+//         margin-top:1em;
+//         padding-left:0;
+//       }
+//       h2{
+//         color: $white;
+//         font-weight: 400;
+//         line-height: 1.22;
+//         letter-spacing: 0.96px;
+//         margin-top: 0.5em;
+//         margin-bottom: 0;
+//         @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//           font-size: 1.211rem;
+//           margin-bottom: 0.5em;
+//         }
+//         @media (max-width: 767px) {
+//           font-size: 1.211rem;
+//           margin-bottom: 0.5em;
+//         }
+//       }
+//       p{
+//         color: $white;
+//         font-size:14px;
+//         margin-top:1em;
+//         margin-left:0.5em;
+//         @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//           font-size: 0.889em;
+//         }
+//         @media (max-width: 767px) {
+//           font-size: 0.889em;
+//         }
+//       }
+//     }
+   
+//   }
+  
+//   .newsSlideShow{
+    
+  
+//     .newsButton{  
+//       float: left;
+//       width: 1%;
+//       margin-left: 4em;
+//       @media (max-width: 2181px) {
+//         margin-left: 3em;
+//       }
+//       @media (max-width: 1848px) {
+//         margin-left: 3em;
+//       }
+//       @media (max-width: 1651px) {
+//         margin-left: 2em;
+//       }
+//       @media (max-width: 1117px) {
+//         margin-left: 1em;
+//       }
+//       .carousel-control-prev{
+//         display:block;
+//         border: none;
+//         background-color: transparent;
+//         margin: 0 auto;
+//         margin-bottom: 2em;
+//         .carousel-control-prev-icon{
+//           background-image: url("../img/arrow-left.svg");
+//           display: inline-block;
+//           width: 2rem;
+//           height: 2rem;
+//           background-repeat: no-repeat;
+//           background-position: 50%;
+//           background-size: 100% 100%;
+//         }
+//       }
+//       .carousel-control-next{
+//         display:block;
+//         border: none;
+//         background-color: transparent;
+//         margin: 0 auto;
+//         position: relative;
+//         right: auto;
+//         .carousel-control-next-icon{
+//           background-image: url("../img/arrow-right.svg");
+//           display: inline-block;
+//           width: 2rem;
+//           height: 2rem;
+//           background-repeat: no-repeat;
+//           background-position: 50%;
+//           background-size: 100% 100%;
+        
+//         }
+//       }
+//     } 
+  
+//       .carousel-inner {
+//         width: 96%;
+//         float: right;
+//         left: 130px;
+//         .active.left {
+//           left: -33%;
+//         }
+//         .active.right {
+//           left: 33%;
+//         }
+//         .next {
+//           left: 33%;
+//         }
+//         .prev {
+//           left: -33%;
+//         }
+//         .item {
+//           transition: 500ms ease-in-out left;
+//           backface-visibility: visible;
+//           transform: none !important;
+         
+//           .carContent{
+//             &::after{
+  
+//               content:"";
+//               background: -webkit-linear-gradient(left, #00aeef 0%, #00aeef 12%, #00aeef 47%, white 100%);
+//               display: block;
+//               height:5px;
+//               width: 85%;
+//               position: absolute;
+//               bottom: 0;
+//             }
+//             .imgCard{
+//               img{
+//                 width: 90%;
+//               }
+//             }
+//             .textCard{
+//               padding:1em 2em 2em 1.5em;
+             
+//               p{
+//                 font-size: 13px;
+//                 font-weight: 500;
+//                 font-stretch: normal;
+//                 font-style: normal;
+//                 line-height: 1.38;
+//                 letter-spacing: normal;
+//               }
+//               a{
+//                 font-size: 13px;
+//                 font-weight: 500;
+//                 font-stretch: normal;
+//                 font-style: normal;
+//                 line-height: 1.38;
+//                 letter-spacing: normal;
+//               }
+//             }
+//           }
+  
+//         }
+        
+//       }
+//       .carousel-control.left {
+//         background-image: none;
+//       }
+//       .carousel-control.right {
+//         background-image: none;
+//       }
+    
+      
+//     }
+  

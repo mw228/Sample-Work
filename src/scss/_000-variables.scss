@@ -1,0 +1,34 @@
+// Variables
+$font-stack: hero-new,'Lato', Arial, san-serif;
+$glyphicons-half: 'Glyphicons Halflings';
+$font-awesome: 'FontAwesome';
+$primary-purple: #470A68;
+$navient-blue: #0057B8;
+$plumb: #77226c;
+$red: #ba0000;
+$bright-blue: #00AEEF;
+$white: #ffffff;
+$off-white:#f0f0f0;
+$black: #000000;
+$almost-black: #080f19;
+$gray: #808080;
+$almost-gray: #eeecec;
+$light-gray:#bebebe;
+$med-gray:#414141;
+$dark-gray:#333333;
+$light-plumb: #a891b5;
+$lighter-blue: #90a4ba;
+$pioneer-green: #00788a;
+$blue-green:#00757a;
+$duncan-green:#053b57;
+$MSB-purple: #613b61;
+$NaviRefiGrey:#F6F6F6;
+$NaviRefiRed:#e01e00;
+
+@mixin border-radius($radius: 0) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+//end: variables
