@@ -1,11 +1,6 @@
-@import "000-variables.scss";
-@import "010-global.scss";
-@import "020-header.scss";
-@import "030-footer.scss";
-@import "040-structure";
-@import "050-page-elements.scss";
-
-@import "103-home-success-stories";
-@import "104-home-careers-culture";
-@import "110-home-highlight";
-@import "107-home-social-responsibility.scss";
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';  /* keep Bootstrap after variables if you override tokens */
+@import 'mixins';
+@import 'layout';
+@import 'components';
+@import 'home';

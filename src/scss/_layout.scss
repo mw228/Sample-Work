@@ -1,0 +1,11 @@
+html, body { scroll-behavior: smooth; }
+.section     { padding-block: 3rem; }
+.section-lg  { padding-block: 4.5rem; }
+.section-sm  { padding-block: 1.5rem; }
+h1, .display-5 { letter-spacing: -0.015em; }
+.lead { color: $brand-muted; }
+.container-narrow { max-width: 960px; }
+.hero-gradient { @include gradient-hero; }
+.card-hover { @include hover-lift; }
+.badge-dot { display:inline-flex; width:.75rem; height:.75rem; border-radius:50%; background:$primary; }
+.link-chevron::after { content:"→"; margin-left:.35rem; }

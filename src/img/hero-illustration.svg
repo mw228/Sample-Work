@@ -1,0 +1,9 @@
+<svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hero illustration">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f5f8"/></linearGradient></defs>
+  <rect width="720" height="420" fill="url(#g)"/>
+  <rect x="60" y="80" width="280" height="24" rx="6" fill="#224e97" opacity=".9"/>
+  <rect x="60" y="120" width="220" height="16" rx="6" fill="#5a2a82" opacity=".8"/>
+  <rect x="60" y="150" width="260" height="16" rx="6" fill="#4fa3e3" opacity=".6"/>
+  <rect x="400" y="70" width="260" height="160" rx="12" fill="#fff" stroke="#E5E7EB"/>
+  <circle cx="520" cy="150" r="46" fill="#5a2a82" opacity=".15"/>
+</svg>

@@ -1,0 +1,26 @@
+/* Hero */
+.home-hero { @include gradient-hero; padding-block: clamp(2.5rem, 6vw, 5rem); }
+.hero-inner { display:grid; gap:2rem; grid-template-columns: 1fr; }
+@media (min-width:992px){ .hero-inner { grid-template-columns: 1.2fr .8fr; align-items:center; } }
+.hero-headline { font-size:clamp(1.75rem, 3.5vw, 2.75rem); font-weight:800; color:$secondary; letter-spacing:-.015em; margin:0; }
+.hero-lead { color:$brand-muted; margin-top:.75rem; }
+.hero-ctas { display:flex; gap:.5rem; margin-top:1rem; }
+.btn-primary { }
+.btn-outline { }
+
+/* Hero card */
+.hero-notice { border:1px solid rgba(0,0,0,.08); }
+.hero-art { display:block; width:100%; height:auto; }
+.notice-title { color:$secondary; font-weight:600; margin:0 0 .25rem; }
+.notice-text { color:$brand-muted; margin:0; }
+
+/* Solutions */
+.our-solutions { padding-block: clamp(2rem, 5vw, 3.5rem); }
+.section-title { font-size:1.25rem; color:$secondary; font-weight:700; margin:0 0 .75rem; }
+.grid { display:grid; gap:1rem; grid-template-columns: repeat(1,minmax(0,1fr)); }
+@media (min-width:576px){ .grid { grid-template-columns: repeat(2,1fr); } }
+@media (min-width:992px){ .grid { grid-template-columns: repeat(3,1fr); } }
+.sol-card { @include hover-lift; }
+.sol-art { width:100%; height:auto; }
+.card-title { color:$secondary; margin:0 0 .25rem; }
+.card-text { color:$brand-muted; margin:0 0 .5rem; }

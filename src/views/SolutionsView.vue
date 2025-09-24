@@ -1,8 +1,8 @@
 <template>
   <div>
     <SiteHeader />
-    <HeroSection />
-    <StatsSection />
+    <SectionNav />
+    <SolutionsGrid />
     <FAQAccordion />
     <CTASection />
     <SiteFooter />
@@ -11,14 +11,14 @@
 
 <script>
 import SiteHeader from '@/components/SiteHeader.vue'
-import HeroSection from '@/components/HeroSection.vue'
-import StatsSection from '@/components/StatsSection.vue'
+import SectionNav from '@/components/SectionNav.vue'
+import SolutionsGrid from '@/components/SolutionsGrid.vue'
 import FAQAccordion from '@/components/FAQAccordion.vue'
 import CTASection from '@/components/CTASection.vue'
 import SiteFooter from '@/components/SiteFooter.vue'
 
 export default {
-  name: 'AboutView',
-  components: { SiteHeader, HeroSection, StatsSection, FAQAccordion, CTASection, SiteFooter }
+  name: 'SolutionsView',
+  components: { SiteHeader, SectionNav, SolutionsGrid, FAQAccordion, CTASection, SiteFooter }
 }
 </script>

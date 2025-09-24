@@ -1,0 +1,6 @@
+<svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Card illustration">
+  <rect width="320" height="180" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="24" y="28" width="160" height="14" rx="7" fill="#224e97" opacity=".9"/>
+  <rect x="24" y="52" width="120" height="10" rx="5" fill="#5a2a82" opacity=".7"/>
+  <rect x="24" y="74" width="180" height="10" rx="5" fill="#4fa3e3" opacity=".6"/>
+</svg>

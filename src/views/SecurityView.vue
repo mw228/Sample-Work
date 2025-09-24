@@ -18,7 +18,7 @@ import CTASection from '@/components/CTASection.vue'
 import SiteFooter from '@/components/SiteFooter.vue'
 
 export default {
-  name: 'AboutView',
+  name: 'SecurityView',
   components: { SiteHeader, HeroSection, StatsSection, FAQAccordion, CTASection, SiteFooter }
 }
 </script>

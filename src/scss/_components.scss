@@ -1,0 +1,68 @@
+/* Announcement bar */
+.announce-bar { border-bottom:1px solid rgba(0,0,0,.08); background: tint-color($primary, 90%); }
+.announce-inner { font-size:.875rem; display:flex; align-items:center; gap:.5rem; color:$secondary; padding-block:.5rem; }
+.announce-badge { display:inline-block; padding:.25rem .5rem; border-radius:10rem; background:$primary; color:#fff; }
+
+/* Header */
+.site-header { background:#fff; border-bottom:1px solid rgba(0,0,0,.08); }
+.brand-square { width:28px; height:28px; border-radius:.25rem; background:$primary; display:inline-block; }
+.brand-word { color:$secondary; }
+
+/* Section pills nav */
+.section-nav { background:$brand-white; border-bottom:1px solid rgba(0,0,0,.06); }
+.pills { display:flex; justify-content:center; gap:.5rem; padding:.5rem 0; list-style:none; margin:0; }
+.pill { display:inline-block; padding:.5rem .75rem; border-radius:50rem; text-decoration:none; color:$brand-muted; }
+.pill:hover, .pill.active { color:#fff; background:$primary; }
+
+/* Cards & links */
+.card { border-color: rgba(0,0,0,.08); border-radius:1rem; }
+.card-link { position:relative; font-weight:600; color:$primary; text-decoration:none; }
+.card-link::after { content:"→"; margin-left:.35rem; }
+
+/* Stats strip */
+.stats-strip { background:$brand-white; border-block:1px solid rgba(0,0,0,.06); }
+.stats-inner { display:grid; grid-template-columns: repeat(2,1fr); gap:1.25rem; text-align:center; padding-block:1.25rem; }
+@media (min-width: 992px){ .stats-inner { grid-template-columns: repeat(4,1fr); } }
+.stat-value { font-size:1.75rem; font-weight:800; color:$secondary; margin:0; }
+.stat-label { font-size:.875rem; color:$brand-muted; }
+
+/* Resources */
+.resources .resource-list { margin-top:1rem; padding:0; list-style:none; }
+.resource-item { border:1px solid rgba(0,0,0,.08); border-radius:.75rem; margin-bottom:.75rem; }
+.resource-link { display:block; padding:1rem; text-decoration:none; }
+.resource-link:hover { background:#fafafa; }
+.resource-top { display:flex; justify-content:space-between; }
+.resource-title { font-size:1rem; margin:0 0 .25rem; color:$secondary; }
+.resource-date { color:$brand-muted; font-size:.875rem; }
+.resource-summary { color:$brand-muted; margin:0 0 .25rem; }
+.resource-tag { color:$primary; font-size:.875rem; }
+
+/* FAQ */
+.faq-body { color:$brand-muted; }
+
+/* CTA */
+.cta-box {
+  padding: 3rem;              /* instead of @extend .p-5 */
+  border-radius: 1rem;        /* instead of @extend .rounded-4 */
+  color:#fff;
+  background: linear-gradient(90deg, $primary, $secondary);
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap:1rem;
+}
+.cta-title { font-size:1.5rem; font-weight:700; margin:0; }
+.cta-sub { color:rgba(#fff,.8); margin:0; }
+.btn-light-primary { background:#fff; color:$primary; font-weight:600; border:0; padding:.5rem 1rem; border-radius:.5rem; }
+.btn-light-primary:hover { opacity:.9; }
+
+/* Footer */
+.site-footer { background:$brand-white; border-top:1px solid rgba(0,0,0,.08); }
+.footer-inner { padding-block:2.5rem; }
+.footer-brand { display:flex; align-items:center; gap:.5rem; color:$secondary; font-weight:600; margin-bottom:1rem; }
+.footer-cols { display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:1.25rem; }
+.footer-col h6 { color:$secondary; margin:0 0 .5rem; }
+.footer-col ul { list-style:none; padding:0; margin:0; }
+.footer-col a { text-decoration:none; color:$brand-muted; }
+.footer-col a:hover { color:$primary; text-decoration:underline; }
+.footer-bottom { border-top:1px solid rgba(0,0,0,.08); padding-top:1rem; display:flex; flex-wrap:wrap; justify-content:space-between; gap:.75rem; color:$brand-muted; }
+
