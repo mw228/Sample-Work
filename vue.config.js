@@ -11,4 +11,8 @@ module.exports = defineConfig({
   //     }
   //   }
   // }
+   // GitHub Pages project site base path:
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Sample-Work/'
+    : '/',
 })

@@ -19,7 +19,9 @@ import SolutionsGrid from '@/components/SolutionsGrid.vue'
 import StatsSection from '@/components/StatsSection.vue'
 import ResourceList from '@/components/ResourceList.vue'
 import CTASection from '@/components/CTASection.vue'
+// import TestAccordion from '@/components/testAccordion.vue'
 import SiteFooter from '@/components/SiteFooter.vue'
+
 
 export default {
   name: 'HomeView',
@@ -31,6 +33,7 @@ export default {
     StatsSection,
     ResourceList,
     CTASection,
+    // TestAccordion,
     SiteFooter
   }
 }
